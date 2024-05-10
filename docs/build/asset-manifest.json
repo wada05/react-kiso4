@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wada05/react-kiso4/static/css/main.c21ead76.css",
+    "main.js": "/wada05/react-kiso4/static/js/main.ef27efbe.js",
+    "index.html": "/wada05/react-kiso4/index.html",
+    "main.c21ead76.css.map": "/wada05/react-kiso4/static/css/main.c21ead76.css.map",
+    "main.ef27efbe.js.map": "/wada05/react-kiso4/static/js/main.ef27efbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c21ead76.css",
+    "static/js/main.ef27efbe.js"
+  ]
+}

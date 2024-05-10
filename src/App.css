@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.home{
+  background: rgb(213,134,169);
+  background: linear-gradient(90deg, rgba(213,134,169,1) 0%, rgba(0,46,101,1) 100%);
+  padding: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.link{
+  text-decoration: none;
+  color: rgb(134, 216, 189);
+  font-size: 25px;
+}
+
+.form{
+ margin-left: 10%; 
+ margin-top: 30px;
+ padding: 10px;
+ justify-content: center;
+}
+
+.input{
+  padding: 15px;
+  border-radius:5px;
+  width: 40%;
+}
+
+.button{
+  padding: 10px;
+  border-radius: 5px;
+  width: 70px;
+}
+
+.fruitsContainer{
+  background:rgb(203, 210, 231);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-block: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.image{
+  aspect-ratio: 4/3;
+  width:80%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.fruitsName{
+ 
+ text-align: center; 
+ font-size: 16px;
+}
+
+.text{
+text-align: center;
+ font-size: 16px;
 }
