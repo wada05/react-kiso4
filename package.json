@@ -36,8 +36,9 @@
     "eject": "react-scripts eject",
     "webpack": "webpack",
     "del": "del -rf docs",
+    "mv": "move build docs",
     "git": "git add . && git commit && git push origin master",
-    "deploy": "yarn run del && yarn run build && yarn run git"
+    "deploy": "yarn run del && yarn run build && yarn run mv && yarn run git"
   },
   "eslintConfig": {
     "extends": [
