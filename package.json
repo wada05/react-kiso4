@@ -37,7 +37,7 @@
     "webpack": "webpack",
     "del": "del -rf docs",
     "mv": "move build docs",
-    "git": "git add . && git commit && git push origin main",
+    "git": "git add . && git commit && git push origin master",
     "deploy": "yarn run del && yarn run build && yarn run mv && yarn run git"
   },
   "eslintConfig": {
