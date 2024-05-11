@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/wada05/react-kiso4/",
+  "homepage": "https://wada05.github.io/react-kiso4/",
   "name": "react-kiso4",
   "version": "0.1.0",
   "main": "server.ts",
@@ -37,7 +37,7 @@
     "webpack": "webpack",
     "del": "del -rf docs",
     "mv": "move build docs",
-    "git": "git add . && git commit && git push origin master",
+    "git": "git add . && git commit && git push origin main",
     "deploy": "yarn run del && yarn run build && yarn run mv && yarn run git"
   },
   "eslintConfig": {
