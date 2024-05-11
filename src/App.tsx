@@ -5,7 +5,7 @@ const App: React.FC = () => {
   return (
     <div className="home">
       <header className="header">
-       Typescript Test
+       Typescript 
        <a className="link" href="https://typescriptbook.jp/">参考サイト</a>
       </header>
        <main>
